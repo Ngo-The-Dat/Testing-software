@@ -3,7 +3,7 @@
 **Họ và tên:** Ngô Thế Đạt<br>
 **Mã số sinh viên (StudentID):** 23127340<br>
 **Link GitHub Repository:** https://github.com/Ngo-The-Dat/Testing-software.git<br>
-**Link YouTube (Playlist/Videos):** https://youtu.be/haMl-iXRbdw [3]
+**Link YouTube (Playlist/Videos):** https://youtu.be/haMl-iXRbdw<br>
 
 ---
 
@@ -25,7 +25,7 @@
      Sơ đồ liệt kê: Jira (quản lý lỗi), Selenium (Test Automation), Postman (kiểm thử hiệu năng), JMeter<br>
      **Lỗi:** Postman bị gán nhãn sai chức năng — Postman là công cụ kiểm thử API (API Testing), không phải kiểm thử hiệu năng. Công cụ kiểm thử hiệu năng đúng là JMeter, Gatling, k6. Ngoài ra thiếu các công cụ phổ biến trong ngành như TestRail (quản lý test case) hay GitHub/GitLab (CI/CD integration). <br>
   3. **Kỹ năng cần thiết — Phân cấp mâu thuẫn, thiếu nhất quán:**
-     **Sơ đồ chia:** Kỹ năng chuyên môn → Cơ bản IT, Công cụ kiểm thử / Kỹ năng mềm → Giao tiếp, Giải quyết vấn đề, Tư duy phản biện, Làm việc nhóm
+     **Sơ đồ chia:** Kỹ năng chuyên môn → Cơ bản IT, Công cụ kiểm thử / Kỹ năng mềm → Giao tiếp, Giải quyết vấn đề, Tư duy phản biện, Làm việc nhóm<br>
      **Lỗi:** Nhánh cha ghi "Kỹ năng mềm" xuất hiện hai lần trong sơ đồ (một lần là nhánh con của "Kỹ năng chuyên môn", một lần là nhánh độc lập), gây mâu thuẫn cấu trúc. Đồng thời "Tư duy phản biện" (Critical Thinking) thực chất là kỹ năng tư duy phân tích — quan trọng hơn và nên được tách thành "Kỹ năng tư duy & phân tích" riêng, không gộp chung vào kỹ năng mềm xã hội.
 
 Tóm lại: Sơ đồ có giá trị tổng quan tốt cho người mới, nhưng mắc các lỗi về phân loại chéo tiêu chí, gán nhãn sai chức năng công cụ, lỗi phân cấp logic và thiếu một số hoạt động thực tế quan trọng theo chuẩn ISTQB/Agile QA.
@@ -417,19 +417,6 @@ Hiểu rõ các yêu cầu chức năng của các sản phẩm của Công ty
 ---
 
 ## Requirement 2 – 20 Software Defects 2022–2026
-
-_Lưu ý: Liệt kê 20 lỗi phần mềm (2022-2026), trong đó >= 5 lỗi liên quan đến AI/LLM. Với MỖI lỗi trong số 20 lỗi, bạn phải tìm 1 điểm AI bị thiên kiến (bias) hoặc bịa đặt (hallucinate) khi giải thích lỗi đó [7, 8]._
-
-**(Lặp lại mẫu dưới đây cho đủ 20 lỗi)**
-
-**Defect 1: [Tên lỗi phần mềm] - [Liên quan AI / Không liên quan AI]**
-
-- **Source link:** [...] [7]
-- **Mô tả (Description):** [...]
-- **Mức độ nghiêm trọng (Severity):** [...]
-- **Hậu quả (Consequences):** [...]
-- **Giải pháp (Solution):** [...] [7]
-- **AI Bias/Hallucination:** [Giải thích 1 điểm AI bịa đặt hoặc thiên kiến khi bạn yêu cầu AI giải thích về lỗi này] [7, 8]
 
 **Defect 1: CrowdStrike Falcon – Logic Error trong Channel File 291 - Không liên quan AI**
 
