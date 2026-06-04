@@ -13,7 +13,7 @@
 
 - **AI vẽ**: Nano Banana 2
 - **Ảnh Sơ đồ/Markdown:**<br>
-  ![alt text](image-16.png)
+  ![alt text](mindmap.png)
 - **3 lỗi sai tìm thấy:**
   1. **Các loại kiểm thử:**
      Sơ đồ liệt kê: Thủ công (Manual), Tự động (Automation), Chức năng, Hiệu năng, Bảo mật, Khả năng sử dụng<br>
