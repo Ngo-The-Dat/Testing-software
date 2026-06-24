@@ -218,58 +218,29 @@
 
 **----------------------------------------**  
 - **AI:** Gemini 3.5 Flash (Medium)  
-- **Time:** 2026-06-23 14:14:05  
+- **Time:** 2026-06-23 15:13:07  
 - **Prompt:**  
-  Sửa lại file sao cho 
-  AI, Time, Prompt, AI Output xuống dòng khi xong nội dung. Tôi thấy nội dung viết liên tục chứ không xuống dòng  
+  Viết cho tôi template cho test-design của BVA và EP dựa trên @[tests/test-design/BVA-FR03.md] và @[tests/test-design/EP-FR03.md].
+  Đặt tên file là BVA_template.md và EP_template.md.
+  BVA_template sẽ, EP_template là template khi design test case.  
 - **AI Output:**  
-  Tôi đã cập nhật lại định dạng trong file [prompt_log1.md](file:///d:/Third%20year/3/KTPM/B%C3%A0i%20l%C3%A0m%20BT%20v%E1%BB%81%20nh%C3%A0/W01/prompt_log1.md).
+  Tôi đã viết thành công các file template thiết kế kiểm thử cho hai phương pháp **BVA (Boundary Value Analysis)** và **EP (Equivalence Partitioning)** dựa trên cấu trúc chuẩn của các file `BVA-FR03.md` và `EP-FR03.md`.
   
-  ### Giải pháp khắc phục:
-  Trong Markdown, các dòng viết liên tục sẽ bị hiển thị nối đuôi nhau nếu không có dấu ngắt dòng cứng. Tôi đã sửa lại kịch bản trích xuất để tự động chèn **2 khoảng trắng (double space)** ở cuối mỗi dòng tiêu đề thông tin (`AI:`, `Time:`, `Prompt:`, `AI Output:`). 
+  Các file template đã được lưu tại cả hai đường dẫn để bạn thuận tiện sử dụng:
+  1. **Thư mục dự án**:
+     - [BVA_template.md](file:///d:/group05_eshop/tests/test-design/BVA_template.md)
+     - [EP_template.md](file:///d:/group05_eshop/tests/test-design/EP_template.md)
+  2. **Thư mục bài tập**:
+     - [BVA_template.md](file:///d:/Third%20year/3/KTPM/B%C3%A0i%20l%C3%A0m%20BT%20v%E1%BB%81%20nh%C3%A0/W01/BVA_template.md)
+     - [EP_template.md](file:///d:/Third%20year/3/KTPM/B%C3%A0i%20l%C3%A0m%20BT%20v%E1%BB%81%20nh%C3%A0/W01/EP_template.md)
   
-  Nhờ vậy, khi hiển thị trên các trình xem Markdown (như VS Code hay GitHub), các thông tin này sẽ được tự động xuống dòng một cách rõ ràng và đẹp mắt, không còn bị viết liền nhau nữa.  
-
-**----------------------------------------**  
-- **AI:** Gemini 3.5 Flash (Medium)  
-- **Time:** 2026-06-23 14:16:58  
-- **Prompt:**  
-  in đậm cho tôi với các tiêu đề sau: AI, Time, Prompt, AI Output. Đồng thời đánh số 1), 2),... trước Tiêu đề AI để dễ theo dõi  
-- **AI Output:**  
-  Tôi đã cập nhật thành công định dạng của file [prompt_log1.md](file:///d:/Third%20year/3/KTPM/B%C3%A0i%20l%C3%A0m%20BT%20v%E1%BB%81%20nh%C3%A0/W01/prompt_log1.md) với các yêu cầu mới của bạn:
-  
-  1. **In đậm các tiêu đề chính**: Đã định dạng lại thành `**AI:**`, `**Time:**`, `**Prompt:**`, và `**AI Output:**`.
-  2. **Đánh số thứ tự**: Thêm các ký tự số thứ tự dạng `1)`, `2)`, `3)`,... ngay trước tiêu đề `AI:` ở đầu mỗi lượt hội thoại để bạn dễ dàng theo dõi trình tự của cuộc trò chuyện.
-  3. **Giữ nguyên định dạng xuống dòng cứng**: Vẫn tiếp tục chèn 2 khoảng trắng ở cuối các dòng tiêu đề này để đảm bảo chúng luôn luôn ngắt dòng khi hiển thị trên các ứng dụng Markdown.  
-
-**----------------------------------------**  
-- **AI:** Gemini 3.5 Flash (Medium)  
-- **Time:** 2026-06-23 14:19:18  
-- **Prompt:**  
-  Sửa lại format như thế này:
-  1)(sau đó xuống dòng)
-  - AI:
-  - Time:
-  - Prompt:
-  - AI Output:
-  
-  2)
-  ...
-  
-  In đậm các tiêu đề như cũ  
-- **AI Output:**  
-  Tôi đã cập nhật cấu trúc file [prompt_log1.md](file:///d:/Third%20year/3/KTPM/B%C3%A0i%20l%C3%A0m%20BT%20v%E1%BB%81%20nh%C3%A0/W01/prompt_log1.md) chính xác theo định dạng mới mà bạn yêu cầu:
-  
-  ```markdown
-  1)
-  - **AI:** ...
-  - **Time:** ...
-  - **Prompt:** ...
-  - **AI Output:** ...
-  ```
-  
-  ### Các cải tiến đã áp dụng:
-  1. **Số thứ tự ở dòng riêng**: Phần đánh số `1)`, `2)`, `3)`,... hiện được đặt trên một dòng độc lập ngay trước khối thông tin.
-  2. **Cấu trúc danh sách bullet**: Các mục thông tin của lượt hội thoại chuyển thành dạng gạch đầu dòng (`- **AI:**`, `- **Time:**`, `- **Prompt:**`, `- **AI Output:**`).
-  3. **Thụt lề nội dung**: Nội dung của `Prompt` và `AI Output` đã được thụt lề 2 khoảng trắng tương ứng để chúng lồng vào trong các dấu gạch đầu dòng một cách chuẩn xác theo cú pháp Markdown, giúp hiển thị trực quan và có hệ thống hơn.  
+  ### Tóm tắt cấu trúc các template:
+  - **`EP_template.md`**:
+    - Gồm bảng xác định miền giá trị **Input & Output** (phân loại miền hợp lệ/không hợp lệ).
+    - Phần **Test Case**: Chi tiết bảng kiểm thử miền hợp lệ và không hợp lệ với các cột ID, Test Objective, Input, Output.
+    - Phần **Rút gọn TC**: Gộp các test case chung input/output thành một dòng duy nhất, sử dụng định dạng danh sách bullet cho cột **Test Objective (gộp)** và **Expected Output** (sử dụng `<br>- ` để hiển thị đẹp mắt trong bảng).
+    
+  - **`BVA_template.md`**:
+    - Gồm bảng xác định **Input** và các điểm biên tương ứng dựa trên phân tích 3-Point Boundary Values (gồm các điểm biên: `MINM`, `MIN`, `MINP`, `MAXM`, `MAX`, `MAXP`).
+    - Phần **Test Case**: Thiết lập chi tiết cho từng điểm biên của mỗi tham số đầu vào với các cột ID, Partition Tested, các cột giá trị biên đầu vào và cột kết quả mong đợi (`Expected Output` dưới dạng danh sách bullet).  
 
